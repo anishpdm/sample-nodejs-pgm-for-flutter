@@ -78,7 +78,7 @@ response.send("Hello "+getname+" <h1> ,Rollno: "+getroll+" ,  Welcome To My Webs
 
 
 
-app.listen(3002, (error)=>{
+app.listen(process.env.PORT ||  3002, (error)=>{
 
     if(error){
         console.log("Error Occured")
