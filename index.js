@@ -64,6 +64,10 @@ app.post('/student',(req,res)=>{
 
 })
 
+app.get("/contact",(req,res)=>{
+    res.send("welcome to my contact page")
+})
+
 
 
 app.get('/home',(request,response)=>{
